@@ -1,0 +1,149 @@
+.bottom_div {
+  width: auto;
+  height: 774px;
+  background-color: #323339;
+
+}
+
+.bottom_transparent_div {
+  height: 318px;
+  width: inherit;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bottom_img_container_transparent_div {
+  display: block;
+  width: 22.67%;
+  float: left;
+  margin-top: 5.1%;
+  margin-left: 11.3%;
+  margin-right: -7.7%;
+  text-align: center;
+  /*border:dotted;*/
+}
+
+.bottom_img_container_transparent_div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bottom_info_div {
+  height: 456px;
+  width: inherit;
+  /*background-color: red;*/
+}
+
+.bottom_info_left_div {
+  width: 818px;
+  height: 330px;
+  float: left;
+  margin-left: 12%;
+  margin-top: 5%;
+  /*background-color: darkred;*/
+}
+
+.bottom_info_left_border_div {
+  width: 98%;
+  height: 0.5%;
+  margin-left: 2%;
+  background-color: white;
+}
+
+.bottom_info_left_text_div {
+  width: inherit;
+  height: 65%;
+  /*background-color: blue;*/
+
+}
+
+.bottom_info_left_title_text_block_div {
+  display: block;
+  float: left;
+  margin-top: 1.5%;
+  margin-left: 2%;
+  color: red;
+}
+
+.bottom_info_left_text_block_div {
+  width: 25%;
+  height: auto;
+  float: left;
+  color: white;
+}
+
+.bottom_info_left_list_container_div {
+  float: left;
+  margin-top: -0.5%;
+  margin-left: 2%;
+}
+
+.bottom_info_left_list_container_div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.bottom_info_left_list_container_div li {
+  padding-top: 10%;
+  margin-left: -5%;
+  padding-left: 9%;
+  color: white;
+
+}
+
+.bottom_info_left_list_container_tittle {
+  color: red;
+
+}
+
+.bottom_info_left_icon_div {
+  width: 52%;
+  height: 18%;
+  float: left;
+  margin-left: 25%;
+  margin-top: 6.5%;
+  /* background-color: blueviolet;*/
+}
+
+.bottom_info_left_icon_div img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.bottom_info_right_div {
+  width: 24%;
+  height: 74%;
+  float: left;
+  margin-left: 7%;
+  margin-top: 5%;
+  /*background-color: rebeccapurple;*/
+}
+
+.bottom_info_right_img_container_div {
+  height: 43%;
+  width: 73%;
+  float: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  /*background-color: aqua;*/
+
+}
+
+.bottom_info_right_img_container_div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bottom_info_right_text_div {
+  width: 100%;
+  height: auto;
+}
+
+.bottom_info_right_text_div p {
+  width: inherit;
+  float: left;
+  margin-top: 10%;
+  margin-bottom: -6%;
+  color: white;
+}

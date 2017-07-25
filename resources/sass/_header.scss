@@ -1,0 +1,129 @@
+.header_div
+{
+  width: inherit;
+  height: 85px;
+  background: rgba(255, 255, 255, 0.5);
+  //background-color: #444a5a;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  z-index: 50;
+  .header_logo_div{
+    position: relative;
+    left: 3%;
+    top: 9%;
+    z-index: 10;
+    height: 79%;
+    width: 11%;
+    //background-color: aqua;
+    .header_logo_div_img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .header_menu_div
+  {
+    height: 100%;
+    width: 73%;
+    position: relative;
+    left: 27.5%;
+    top: -79%;
+    //background-color: brown;
+    .header_menu_bar_div{
+      height: 50%;
+      width: inherit;
+      .red_nav_bar_ul{
+        list-style-type: none;
+        background-color: $main_brand_red;
+        opacity: 1;
+        height: 90%;
+        width: 139%;
+        .red_nav_var_li{
+          float: left;
+          display: block;
+          color: white;
+          text-align: center;
+          vertical-align: middle;
+          margin-top: 0%;
+          margin-left: 2.5%;
+          margin-right: 0.3%;
+          width: auto;
+          height: 95%;
+          padding-right: 2%;
+          &:hover{
+            background-color: #EC2B2B;;
+          }
+          .red_nav_var_li_text{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 10px;
+            font-weight: 600;
+            padding-top: 9px;
+            padding-left: 11px;
+            letter-spacing: 2px;
+          }
+          .red_nav_var_li_move_lupa{
+            padding-top: 9px;
+            padding-left: 11px;
+          }
+        }
+      }
+      .white_nav_bar_ul{
+        list-style-type: none;
+        width: 137%;
+        height: 91%;
+        .white_nav_bar_li{
+          float: left;
+          display: block;
+          text-align: center;
+          text-decoration: none;
+          margin-left: 2%;
+          margin-top: 1.5%;
+          letter-spacing: 1px;
+          margin-right: 3%;
+
+          &:hover{
+            background-color: white;
+          }
+          .white_nav_bar_li_hide{
+            display: none;
+            width: 14%;
+            height: auto;
+            background-color: white;
+            position: absolute;
+            float: left;
+            margin-top: 1.5%;
+            margin-left: -1%;
+            a{
+              text-decoration: none;
+              width: 100%;
+              height: 0%;
+              float: left;
+              padding: 1%;
+              display: block;
+              .white_nav_bar_li_hide_text{
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 500;
+                font-size: 0.8em;
+                padding-top: 4%;
+                padding-left: 8%;
+                padding-bottom: 4%;
+                text-align: left;
+                color: black;
+              }
+            }
+
+          }
+          .white_nav_bar_li_text{
+            color: black;
+            font-family: 'Raleway',sans-serif;
+            font-weight: 600;
+            font-size: 11px;
+            text-transform: uppercase !important;
+            letter-spacing: 2px !important;
+            line-height: 15px !important;
+          }
+        }
+      }
+    }
+
+  }
+}

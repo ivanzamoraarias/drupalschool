@@ -1,0 +1,264 @@
+.first_div {
+  width: inherit;
+  height: 1681px;
+  background-color: #3a4d69;
+  border: dotted;
+
+}
+
+.first_left_arrow_div {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  left: 22px;
+  top: 586px;
+  z-index: 30;
+  background-image: url("../images/prev_icon.png");
+  /*background-color: palevioletred;*/
+  background-size: cover;
+}
+
+.first_right_arrow_div {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  right: 189px;
+  top: 585px;
+  z-index: 30;
+  background-image: url("../images/next_icon.png");
+  /*background-color: palevioletred;*/
+  background-size: cover;
+}
+
+.first_a_div {
+  height: 826px;
+  width: 1169px;
+  margin-top: 692px;
+  /*margin-bottom: 790px;*/
+  margin-left: 414px;
+
+  /*border: solid;*/
+}
+
+.first_a_collection_div {
+  /* height: 778px;*/
+  width: 354px;
+  margin-top: -509px;
+  /*border: inherit;*/
+}
+
+.first_a_col_individual_div {
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: inherit;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+
+}
+
+.first_a_col_individual_text_cont_div {
+  font-size: 228%;
+  color: white;
+  padding-top: 20%;
+}
+
+.first_a_col_text_individual {
+
+}
+
+.first_a_image {
+  height: 552px;
+  width: 861px;
+  margin-left: 360px;
+  margin-top: 0px;
+  z-index: 10;
+}
+
+.first_a_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.first_a_text_collection_div {
+  width: 750px;
+  height: 166px;
+  border: medium;
+  float: right;
+  margin-left: 0;
+  margin-top: -204px;
+  /*background-color: white;*/
+}
+
+.first_a_text_collection_individual_container_div {
+  width: 33%;
+  display: block;
+  float: left;
+}
+
+.first_a_text_collection_individual_container_div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.first_a_text_collection_individual_container_div li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 111%;
+  font-weight: bold;
+  color: red;
+  padding: 4%;
+}
+
+.first_a_text_collection_individual_container_text {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*nada*/
+.first_b_div1 {
+  position: absolute;
+  height: 444px;
+  width: 360px;
+  display: inline-block;
+  z-index: 1;
+  top: 1710px;
+  left: 293px;
+}
+
+/*negra paseando*/
+.first_b_div2 {
+  position: absolute;
+  width: 710px;
+  height: 470px;
+  display: inline-block;
+  z-index: 2;
+  top: 1684px;
+  left: 632px;
+}
+
+/*chica con laptop*/
+.first_b_div3 {
+  position: absolute;
+  width: 511px;
+  height: 502px;
+  display: inline-block;
+  z-index: 3;
+  top: 1798px;
+  left: -11px;
+}
+
+/*chica rubia*/
+.first_b_div4 {
+  position: absolute;
+  width: 477px;
+  height: 395px;
+  display: inline-block;
+  z-index: 4;
+  top: 1758px;
+  left: 1136px;
+
+}
+
+/*texto solo*/
+.first_b_div5 {
+  position: absolute;
+  height: 359px;
+  width: 394px;
+  display: inline-block;
+  z-index: 5;
+  top: 1802px;
+  left: 398px;
+  background-color: #87888e;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.first_b_div5_text_container_1 {
+  font-size: 23px;
+  margin-top: 6%;
+  margin-left: 8%
+}
+
+.first_b_div5_text_container_2 {
+  margin-top: 14%;
+  margin-left: 7%;
+  font-size: 37px;
+}
+
+.first_b_div5_text_container_3 {
+  padding: 7%;
+  padding-left: 8%;
+  padding-top: 5%;
+  line-height: 27px;
+  font-size: 17px;
+}
+
+.first_c_div {
+  width: inherit;
+  height: 177px;
+  /*background-color: aquamarine;*/
+  float: left;
+  position: absolute;
+  top: 2303px;
+}
+
+.first_c_div_individual {
+  width: 29%;
+  height: 71%;
+  /*border: dotted;*/
+  /* padding-right: 3%; */
+  margin-right: 1%;
+  padding-left: 1%;
+  float: left;
+}
+
+.first_c_div_individual_right {
+  width: 62%;
+  height: 81%;
+  float: left;
+  margin-left: 2%;
+  /*background-color: mediumpurple;*/
+}
+
+.first_c_div_individual_right_text {
+  font-family: 'Open Sans', sans-serif;
+  padding: 5%;
+  font-size: 169%;
+}
+
+.first_c_div_individual_left {
+  width: 19%;
+  height: 100%;
+  float: left;
+  margin-left: 13%;
+  /*background-color: blue;*/
+
+}
+
+.first_c_div_individual_month {
+  width: 100%;
+  height: 30%;
+  background-color: red;
+
+}
+
+.first_c_div_individual_month_text {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 173%;
+  font-weight: bold;
+  color: white;
+}
+
+.first_c_div_individual_day {
+  width: 100%;
+  height: 67%;
+  /*background: pink;*/
+}
+
+.first_c_div_individual_day_text {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 319%;
+  font-weight: bold;
+}

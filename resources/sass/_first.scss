@@ -1,35 +1,79 @@
+$isHover: false;
 .first_div {
   width: inherit;
   height: 1681px;
-  background-color: #3a4d69;
-  border: dotted;
+ // background-color: #3a4d69;
+  //border: dotted;
+
+}
+
+.first_div_image_div{
+  @warn 'holaalalalal';
+  position: absolute;
+  top:0%;
+  left:1%;
+  margin-left: -1%;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  //background-color: yellowgreen;
+  &:hover{
+    $isHover:true;
+  }
+  .gradient{
+    position: absolute;
+    top: 1.9%;
+    left: 0%;
+    width: 100%;
+    height: 1073px;
+    background: linear-gradient(to top, #848b90, rgba(132, 139, 144, 0));
+  }
+  .images{
+    max-width: 100%;
+    height: auto;
+  }
 
 }
 
 .first_left_arrow_div {
-  width: 52px;
-  height: 52px;
+  //display: none;
+  width: 3.5%;
+  height: 11%;
   position: absolute;
-  left: 22px;
-  top: 586px;
+  left: 0.9%;
+  top: 453px;
   z-index: 30;
-  background-image: url("../images/prev_icon.png");
-  /*background-color: palevioletred;*/
-  background-size: cover;
+  background-image: url(../images/prev_icon.png);
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  @if($isHover) {
+    @warn 'it is hover';
+    display: block;
+  }
+  @else{
+    display: none;
+  }
+
 }
 
 .first_right_arrow_div {
-  width: 52px;
-  height: 52px;
+  width: 3.5%;
+  height: 11%;
   position: absolute;
-  right: 189px;
-  top: 585px;
+  right: 0.9%;
+  top: 453px;
   z-index: 30;
-  background-image: url("../images/next_icon.png");
-  /*background-color: palevioletred;*/
-  background-size: cover;
+  background-image: url(../images/next_icon.png);
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  @if($isHover) {
+    @warn 'it is hover';
+    display: block;
+  }
+  @else{
+    display: none;
+  }
 }
-
 .first_a_div {
   height: 826px;
   width: 1169px;

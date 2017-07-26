@@ -10,12 +10,12 @@ $(document).ready(function() {
         "resources/images/sinkingspring.png",
         "resources/images/first_div_bg_image.png"];
 
-    $('#gra').on('mouseenter',function () {
+    $('.galeria').on('mouseenter',function () {
         console.log("enter al div");
         $('.first_left_arrow_div').show();
         $('.first_right_arrow_div').show();
     });
-    $('#gra').mouseleave(function () {
+    $('.galeria').mouseleave(function () {
         console.log("enter al div");
         $('.first_left_arrow_div').hide();
         $('.first_right_arrow_div').hide();

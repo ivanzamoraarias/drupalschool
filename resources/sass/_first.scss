@@ -1,4 +1,12 @@
-$isHover: false;
+$isHover:false;
+.galeria{
+  position: absolute;
+  width: 100%;
+  height: 1000px;
+  &:hover{
+    $isHover:true;
+  }
+}
 .first_div {
   width: inherit;
   height: 1681px;
@@ -46,14 +54,7 @@ $isHover: false;
   background-image: url(../images/prev_icon.png);
   background-size: 100%, 100%;
   background-repeat: no-repeat;
-  @if($isHover) {
-    @warn 'it is hover';
-    display: block;
-  }
-  @else{
-    display: none;
-  }
-
+  display: none;
 }
 
 .first_right_arrow_div {
@@ -66,14 +67,11 @@ $isHover: false;
   background-image: url(../images/next_icon.png);
   background-size: 100%, 100%;
   background-repeat: no-repeat;
-  @if($isHover) {
-    @warn 'it is hover';
-    display: block;
-  }
-  @else{
-    display: none;
-  }
+  display: none;
 }
+
+
+
 .first_a_div {
   height: 826px;
   width: 1169px;

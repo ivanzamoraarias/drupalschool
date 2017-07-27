@@ -1,6 +1,40 @@
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == "small" {
+    @media only screen and (max-width: 425px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint == "medium" {
+    @media only screen and (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint == "large" {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+}
 *{
   margin: 0;
   padding: 0;
+}
+.body_style{
+  background-color: $main_brand_gray;
+  @include respond-to(medium)
+  {
+    .mobile_page_div{
+      display: none;
+    }
+  }
+  @include  respond-to(small)
+  {
+    .page_div{
+      display: none;
+    }
+  }
 }
 img{
   max-width: 100%;
@@ -9,4 +43,17 @@ img{
 .page_div {
   width: 100%;
   height: 5549px;
+  //background-color: $main_brand_gray;
+  //z-index: -100;
+}
+.mobile_page_div{
+  width: 100%;
+  height: 8712px;
+  background-color: white;
+  z-index: -2;
+  position: sticky;
+  img{
+    max-width: 100%;
+    height: 100%;
+  }
 }

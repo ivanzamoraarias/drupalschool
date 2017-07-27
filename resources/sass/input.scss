@@ -1,9 +1,27 @@
+
+
 @import "susy";
 @import "variables";
 @import "mainpage";
-@import "header";
-@import "first";
-@import "second";
-@import "third";
-@import "bottom";
+
+//mobile styles
+  @import "mobileHeader";
+@import "mobileFirst";
+@import "mobile2";
+@import "mobile3";
+@import "mobile4";
+@import "mobile5";
+@import "mobile6";
+@import "mobile7";
+
+//desktop styles
+  @import "header";
+  @import "first";
+  @import "second";
+  @import "third";
+  @import "bottom";
+
+
+
+
 

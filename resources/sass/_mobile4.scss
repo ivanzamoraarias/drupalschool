@@ -1,0 +1,64 @@
+.mobile_4_div{
+  width: 100%;
+  height: 360px;
+
+  float: left;
+  margin-top: 17%;
+}
+.mobile_4_div_collection{
+
+  float: left;
+  margin-top: 8%;
+  width: 100%;
+  height: 308px;
+}
+.mobile_4_div_collection ul{
+  list-style-type: none;
+  padding: 0;
+  margin-top: -1%;
+
+}
+.mobile_4_div_collection li{
+
+  width: 63%;
+  height: 73%;
+  padding: 10%;
+  margin-bottom: 3%;
+}
+.mobile_4_div_collection_date{
+  display: inline-block;
+  float: left;
+  width: 23%;
+  margin-left: -2%;
+}
+.mobile_4_div_collection_date_month{
+  background-color: #ff3333;
+}
+.mobile_4_div_collection_date_month_text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+.mobile_4_div_collection_date_day{
+
+}
+.mobile_4_div_collection_date_day_text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.mobile_4_div_collection_description{
+  display: inline-block;
+  float: left;
+  width: 70%;
+  margin-left: 7%;
+}
+.mobile_4_div_collection_description_text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-decoration-style: solid;
+  color: black;
+  padding: 1%
+}

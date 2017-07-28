@@ -1,3 +1,12 @@
+@mixin logo-container($w:31%,$t:14%,$l:40%){
+  width: $w;
+  height: 24%;
+  //background-color: aqua;
+  //border: dotted;
+  margin-top: $t;
+  margin-left: $l;
+}
+
 .mobile_7_div{
   width: 100%;
   height: 2303px;
@@ -42,18 +51,159 @@
 
 }
 .mobile_7_div_red_tittle{
-
+  width: 86%;
+  height: 13%;
+  margin-top: 6%;
+  margin-left: 7%;
+  //background-color: black;
 }
 .mobile_7_div_red_tittle_text{
-
+  font-family: 'Raleway',sans-serif;
+  font-size: 27px;
+  font-weight: 100;
+  line-height: 30px;
+  color: white;
+  padding-top: 3%;
+  padding-left: 1%;
 }
 .mobile_7_div_red_content{
-
+  width: 86%;
+  height: 19%;
+ // background-color: black;
 }
 .mobile_7_div_red_content_text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 24px;
+  color: white;
+  padding-top: 3%;
+  padding-left: 8%;
+}
+.mobile_7_div_gray{
+  width: 100%;
+  height: 30%;
+  float: left;
+  background-color: #bfbfbf;
+  #m71{
+    @include logo-container();
+  }
+  #m72{
+    @include logo-container(57%,16%,23%);
+  }
+  #m73{
+    @include logo-container(38%,15%,32%);
+  }
+  .mobile_7_div_gray_item{
+    //width: 31%;
+    //height: 24%;
+    //background-color: aqua;
+    //border: dotted;
+    //margin-top: 14%;
+    //margin-left: 40%;
 
+  }
 }
 
+.mobile_7_div_extra{
+  width: 100%;
+  height: 3%;
+  float: left;
+  background-color: #bfbfbf;
+}
 .mobile_7_div_black{
+  width: 100%;
+  height: 900px;
+  float: left;
+  background-color: #323339;
+  .mobile_7_div_black_icons{
+    //background-color: rebeccapurple;
+    width: 100%;
+    height: 23%;
+    ul{
+      list-style-type: none;
+      padding-left: 24%;
+      padding-top: 10%;
+      li{
+        width: 32.3%;
+        height: 50%;
+        /* background-color: yellow; */
+        float: left;
+        display: inline-block;
+        color: white;
+        margin-bottom: 21%;
+        a{
+          font-size: 42px;
+          color: white;
+          text-decoration: none;
+          display: block;
+        }
+      }
+    }
+  }
+  .mobile_7_div_black_info{
+    width: 100%;
+    height: 41%;
+    //background-color: yellowgreen;
+    position: relative;
+    .mobile_7_div_black_info_content{
+      margin-top: 8%;
+      margin-left: 4%;
+      p{
+        color:white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.2em;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: 1%;
+
+      }
+    }
+    .mobile_7_div_black_info_img{
+      width: 44%;
+      height: 24%;
+      margin-left: 30%;
+      margin-top: 1%;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+    .mobile_7_div_black_info_content{
+      p{
+
+      }
+    }
+  }
+  .mobile_7_div_black_menu{
+    width: 88%;
+    height: 27%;
+    margin-top: 17%;
+    margin-left: 8%;
+    //background-color: rebeccapurple;
+      ul{
+        list-style-type: none;
+        li{
+          width: 100%;
+          height: 54px;
+          margin-bottom: 5%;
+          background-color: #231f20;
+          .mobile_7_div_black_menu_text{
+            font-family: 'Raleway', sans-serif;
+            font-size: 25px;
+            font-weight: 100;
+            color: white;
+            text-align: center;
+            padding-top: 3%;
+            #m7b1{
+              padding-top: 4%;
+            }
+          }
+        }
+      }
+  }
 
 }

@@ -1,7 +1,7 @@
 .mobile_header_div{
   width: inherit;
   height: 1%;
-  z-index: 2;
+  z-index: 4;
   position: absolute;
 
 }
@@ -56,4 +56,60 @@
   z-index: 1;
   position: absolute;
   left: 0;
+}
+.mobile_header_div_menu{
+  display: none;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  ul{
+    list-style-type: none;
+    background-color: #eaeaea;
+    li{
+      margin-bottom: -1%;
+      .container {
+        width: 100%;
+        height: 42px;
+        .text {
+          display: inline-block;
+          font-family: 'Raleway', sans-serif;
+          font-size: 18px;
+          letter-spacing: 2px;
+          line-height: 15px;
+          padding-left: 7%;
+          padding-top: 5%;
+        }
+        .text-down {
+          float: right;
+          margin-right: 6%;
+          font-size: 32px;
+          color: red;
+          font-weight: 600;
+        }
+      }
+      .list{
+        display: none;
+        width: 100%;
+        height: auto;
+        ul{
+          list-style-type: none;
+          li{
+            width: 100%;
+            height: 44px;
+            a{
+              font-family: 'Raleway', sans-serif;
+              font-size: 11.2px;
+              color: black;
+              letter-spacing: 2px;
+              float: left;
+              margin-top: 4%;
+              margin-left: 8.5%;
+            }
+          }
+        }
+      }
+
+    }
+  }
 }

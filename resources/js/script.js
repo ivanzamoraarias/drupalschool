@@ -4,12 +4,17 @@
 
 $(document).ready(function() {
     var image_index=0;
+    var mobile_image_index=0
     var images_array=["resources/images/CollegePathwayHero.jpg",
         "resources/images/sinkingspring.png",
         "resources/images/first_div_bg_image.png"];
     var first_a_images_array=["resources/images/Layer-16_1.jpg",
         "resources/images/howtopayforcollege.png",
         "resources/images/iwantto.png","resources/images/studentelife.png"];
+    var mobile_images_array=["resources/images/Fall17RegistrationHero.png",
+        "resources/images/CollegePathwayHero.jpg",
+        "resources/images/sinkingspring.png"
+        ];
 
     $('.galeria').on('mouseenter',function () {
         console.log("enter al div");
@@ -38,7 +43,7 @@ $(document).ready(function() {
     });
     $('.first_right_arrow_div').click(function () {
         image_index++;
-        if(image_index>3)
+        if(image_index>2)
             image_index=0
         $('#dynamic_img').attr("src",images_array[image_index]);
     });
@@ -77,4 +82,89 @@ $(document).ready(function() {
         $('#image_first_a').css("filter", "none");
     });
 
+    //mobile events
+
+    
+    function change_image (o){
+       setTimeout(function () {
+           mobile_image_index++;
+           if(mobile_image_index>2)
+               mobile_image_index=0
+           $('#moba').attr("src",mobile_images_array[mobile_image_index]);
+
+           $('.mobile_first_div_squares_option').css("background-color","white");
+           if(mobile_image_index == 0)
+               $('#msu1').css("background-color","red");
+           if(mobile_image_index == 1)
+               $('#msu2').css("background-color","red");
+           if(mobile_image_index == 2)
+               $('#msu3').css("background-color","red");
+
+           change_image (o)
+       },4000);
+    }
+    change_image($('.mobile_page_div'));
+
+
+    $('.mobile_first_arrow_container_right').click(function () {
+        mobile_image_index++;
+        if(mobile_image_index>2)
+            mobile_image_index=0
+        $('#moba').attr("src",mobile_images_array[mobile_image_index]);
+
+        $('.mobile_first_div_squares_option').css("background-color","white");
+        if(mobile_image_index == 0)
+            $('#msu1').css("background-color","red");
+        if(mobile_image_index == 1)
+            $('#msu2').css("background-color","red");
+        if(mobile_image_index == 2)
+            $('#msu3').css("background-color","red");
+    });
+
+    $('.mobile_first_arrow_container_left').click(function () {
+        mobile_image_index--;
+        if(mobile_image_index<0)
+            mobile_image_index=2
+        $('#moba').attr("src",mobile_images_array[mobile_image_index]);
+
+        $('.mobile_first_div_squares_option').css("background-color","white");
+        if(mobile_image_index == 0)
+            $('#msu1').css("background-color","red");
+        if(mobile_image_index == 1)
+            $('#msu2').css("background-color","red");
+        if(mobile_image_index == 2)
+            $('#msu3').css("background-color","red");
+    });
+    $('.mobile_first_div_squares_option').click(function () {
+        var id=$(this).attr('id');
+        if(mobile_image_index==0 && id=='msu1')
+            return;
+        if(mobile_image_index==1 && id=='msu2')
+            return;
+        if(mobile_image_index==2 && id=='msu3')
+            return;
+
+        if(id=='msu1')
+            mobile_image_index=0
+        if(id=='msu2')
+            mobile_image_index=1
+        if(id=='msu3')
+            mobile_image_index=2
+
+        $('#moba').attr("src",mobile_images_array[mobile_image_index]);
+        $('.mobile_first_div_squares_option').css("background-color","white");
+        $(this).css("background-color","red");
+
+    });
+    
+    $('.container').click(function () {
+        $(this).parent().children('.list').slideToggle();
+    });
+    $('.mobile_header_div_transparent_menu_plus').click(function () {
+        $('.mobile_header_div_menu').slideToggle();
+    });
+
+    $('.mobile_2_div_op').click(function () {
+        
+    });
 });

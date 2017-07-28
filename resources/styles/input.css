@@ -23,7 +23,6 @@ img {
   width: 100%;
   height: 8712px;
   background-color: white;
-  z-index: -2;
   position: sticky; }
   .mobile_page_div img {
     max-width: 100%;
@@ -32,7 +31,7 @@ img {
 .mobile_header_div {
   width: inherit;
   height: 1%;
-  z-index: 2;
+  z-index: 4;
   position: absolute; }
 
 .mobile_header_div_bar {
@@ -85,6 +84,52 @@ img {
   z-index: 1;
   position: absolute;
   left: 0; }
+
+.mobile_header_div_menu {
+  display: none;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  position: absolute; }
+  .mobile_header_div_menu ul {
+    list-style-type: none;
+    background-color: #eaeaea; }
+    .mobile_header_div_menu ul li {
+      margin-bottom: -1%; }
+      .mobile_header_div_menu ul li .container {
+        width: 100%;
+        height: 42px; }
+        .mobile_header_div_menu ul li .container .text {
+          display: inline-block;
+          font-family: 'Raleway', sans-serif;
+          font-size: 18px;
+          letter-spacing: 2px;
+          line-height: 15px;
+          padding-left: 7%;
+          padding-top: 5%; }
+        .mobile_header_div_menu ul li .container .text-down {
+          float: right;
+          margin-right: 6%;
+          font-size: 32px;
+          color: red;
+          font-weight: 600; }
+      .mobile_header_div_menu ul li .list {
+        display: none;
+        width: 100%;
+        height: auto; }
+        .mobile_header_div_menu ul li .list ul {
+          list-style-type: none; }
+          .mobile_header_div_menu ul li .list ul li {
+            width: 100%;
+            height: 44px; }
+            .mobile_header_div_menu ul li .list ul li a {
+              font-family: 'Raleway', sans-serif;
+              font-size: 11.2px;
+              color: black;
+              letter-spacing: 2px;
+              float: left;
+              margin-top: 4%;
+              margin-left: 8.5%; }
 
 .mobile_first_div {
   width: 100%;
@@ -185,9 +230,12 @@ img {
   text-align: center; }
 
 .mobile_2_div_op_arrow {
-  font-family: FontAwesome;
-  content: '\f078';
-  color: white; }
+  color: white;
+  float: right;
+  margin-right: 3%;
+  margin-top: -6%;
+  font-size: 257%;
+  font-weight: 900; }
 
 .mobile_3_div {
   width: 100%;

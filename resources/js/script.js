@@ -167,4 +167,7 @@ $(document).ready(function() {
     $('.mobile_2_div_op').click(function () {
         
     });
+    $('.button_op').click(function () {
+        $(this).parent().children('.content').slideToggle();
+    });
 });

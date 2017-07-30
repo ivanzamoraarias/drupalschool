@@ -131,6 +131,81 @@ img {
               margin-top: 4%;
               margin-left: 8.5%; }
 
+.middle_div {
+  position: absolute;
+  width: 100%;
+  height: 587px; }
+  .middle_div .left_arrow_div {
+    width: 3.5%;
+    height: 11%;
+    position: absolute;
+    left: 0.9%;
+    top: 63%;
+    z-index: 30;
+    background-image: url(../images/prev_icon.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    display: none; }
+  .middle_div .right_arrow_div {
+    width: 3.5%;
+    height: 11%;
+    position: absolute;
+    right: 0.9%;
+    top: 63%;
+    z-index: 30;
+    background-image: url(../images/next_icon.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    display: none; }
+  .middle_div .content {
+    width: 30%;
+    height: 36%;
+    margin-top: 23%;
+    margin-left: 8%; }
+    .middle_div .content .tittle {
+      width: 88%;
+      height: 40%;
+      float: left;
+      margin-top: 3.4%;
+      margin-left: 9%; }
+      .middle_div .content .tittle .text {
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;
+        letter-spacing: 1.5px;
+        text-decoration-style: solid;
+        font-size: 35px; }
+    .middle_div .content .ley {
+      float: left;
+      width: 80%;
+      height: 24%;
+      margin-left: 9%;
+      margin-top: 3%; }
+      .middle_div .content .ley p {
+        text-align: left;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        letter-spacing: 0.7px;
+        line-height: 22px; }
+        .middle_div .content .ley p a {
+          color: white;
+          text-decoration-line: underline; }
+    .middle_div .content .bars {
+      width: 65%;
+      height: 21%;
+      float: left;
+      margin-left: 9%;
+      margin-top: 1%; }
+      .middle_div .content .bars .ibar {
+        background-color: #9a9ba0;
+        width: 18%;
+        height: 6%;
+        float: left;
+        margin-top: 7.5%;
+        /* margin-left: 1%; */
+        margin-right: 5%; }
+
 .mobile_first_div {
   width: 100%;
   height: 6%;

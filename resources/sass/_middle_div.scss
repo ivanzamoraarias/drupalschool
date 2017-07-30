@@ -1,0 +1,90 @@
+.middle_div{
+  position: absolute;
+  width: 100%;
+  height: 587px;
+  .left_arrow_div {
+    //display: none;
+    width: 3.5%;
+    height: 11%;
+    position: absolute;
+    left: 0.9%;
+    top: 63%;
+    z-index: 30;
+    background-image: url(../images/prev_icon.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    display: none;
+  }
+  .right_arrow_div {
+    width: 3.5%;
+    height: 11%;
+    position: absolute;
+    right: 0.9%;
+    top: 63%;
+    z-index: 30;
+    background-image: url(../images/next_icon.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    display: none;
+  }
+  .content{
+    width: 30%;
+    height: 36%;
+    margin-top: 23%;
+    margin-left: 8%;
+    .tittle{
+      width: 88%;
+      height: 40%;
+      float: left;
+      margin-top: 3.4%;
+      margin-left: 9%;
+      .text{
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;
+        letter-spacing: 1.5px;
+        text-decoration-style: solid;
+        font-size: 35px;
+
+      }
+
+    }
+    .ley{
+      float: left;
+      width: 80%;
+      height: 24%;
+      margin-left: 9%;
+      margin-top: 3%;
+      p{
+        text-align: left;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        letter-spacing: 0.7px;
+        line-height: 22px;
+        a{
+          color: white;
+          text-decoration-line: underline;
+        }
+
+      }
+
+    }
+    .bars{
+      width: 65%;
+      height: 21%;
+      float: left;
+      margin-left: 9%;
+      margin-top: 1%;
+      .ibar{
+        background-color: #9a9ba0;
+        width: 18%;
+        height: 6%;
+        float: left;
+        margin-top: 7.5%;
+        /* margin-left: 1%; */
+        margin-right: 5%;
+      }
+    }
+  }
+}

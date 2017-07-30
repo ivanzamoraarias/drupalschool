@@ -26,7 +26,16 @@ $(document).ready(function() {
         $('.first_left_arrow_div').hide();
         $('.first_right_arrow_div').hide();
     });
-
+    $('.middle_div').on('mouseenter',function () {
+        console.log("enter al div");
+        $('.left_arrow_div').show();
+        $('.right_arrow_div').show();
+    });
+    $('.middle_div').mouseleave(function () {
+        console.log("enter al div");
+        $('.left_arrow_div').hide();
+        $('.right_arrow_div').hide();
+    });
     $('.white_nav_bar_li').mouseenter(function () {
         $(this).children('.white_nav_bar_li_hide').show();
     });
@@ -38,14 +47,59 @@ $(document).ready(function() {
         if(image_index<0)
             image_index=2
         $(this).parent().children('.first_div_image_div').children('.images').attr("src",images_array[image_index]);
-
-
     });
     $('.first_right_arrow_div').click(function () {
         image_index++;
         if(image_index>2)
             image_index=0
         $('#dynamic_img').attr("src",images_array[image_index]);
+    });
+    $('.left_arrow_div').click(function () {
+        image_index--;
+        if(image_index<0)
+            image_index=2
+        $('#dynamic_img').attr("src",images_array[image_index]);
+        $('.ibar').css("background-color","white");
+        if(image_index == 0)
+            $('#bb1').css("background-color","red");
+        if(image_index == 1)
+            $('#bb2').css("background-color","red");
+        if(image_index == 2)
+            $('#bb3').css("background-color","red");
+    });
+    $('.right_arrow_div').click(function () {
+        image_index++;
+        if(image_index>2)
+            image_index=0
+        $('#dynamic_img').attr("src",images_array[image_index]);
+        $('.ibar').css("background-color","white");
+        if(image_index == 0)
+            $('#bb1').css("background-color","red");
+        if(image_index == 1)
+            $('#bb2').css("background-color","red");
+        if(image_index == 2)
+            $('#bb3').css("background-color","red");
+    });
+    $('.ibar').click(function () {
+        var id=$(this).attr('id');
+        if(image_index==0 && id=='bb1')
+            return;
+        if(image_index==1 && id=='bb2')
+            return;
+        if(image_index==2 && id=='bb3')
+            return;
+
+        if(id=='bb1')
+            image_index=0
+        if(id=='bb2')
+            image_index=1
+        if(id=='bb3')
+            image_index=2
+
+        $('#dynamic_img').attr("src",images_array[mobile_image_index]);
+        $('.ibar').css("background-color","white");
+        $(this).css("background-color","red");
+
     });
     $('.first_a_col_individual_div').click(function () {
 

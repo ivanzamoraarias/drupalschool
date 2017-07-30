@@ -16,6 +16,14 @@ $(document).ready(function() {
         "resources/images/sinkingspring.png"
         ];
 
+    $('.third_video_div').on('click', function(ev) {
+
+        $('#video').show();
+        $("#video")[0].src += "&autoplay=1";
+        ev.preventDefault();
+
+    });
+
     $('.galeria').on('mouseenter',function () {
         console.log("enter al div");
         $('.first_left_arrow_div').show();

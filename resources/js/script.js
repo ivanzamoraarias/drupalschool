@@ -16,6 +16,13 @@ $(document).ready(function() {
         "resources/images/sinkingspring.png"
         ];
 
+
+    // $('.white_nav_bar_li_hide').mouseenter(function () {
+    //     $(this).css("background-color","#eaeaea");
+    // });
+    // $('.white_nav_bar_li_hide').mouseleave(function () {
+    //     $(this).css("background-color","white");
+    // });
     $('.third_video_div').on('click', function(ev) {
 
         $('#video').show();

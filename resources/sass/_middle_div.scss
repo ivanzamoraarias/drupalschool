@@ -1,14 +1,13 @@
 .middle_div{
-  position: absolute;
+  position: relative;
   width: 100%;
-  height: 587px;
+  height: 377px;
   .left_arrow_div {
-    //display: none;
     width: 3.5%;
     height: 11%;
     position: absolute;
     left: 0.9%;
-    top: 63%;
+    top: 25%;
     z-index: 30;
     background-image: url(../images/prev_icon.png);
     background-size: 100%, 100%;
@@ -19,8 +18,8 @@
     width: 3.5%;
     height: 11%;
     position: absolute;
-    right: 0.9%;
-    top: 63%;
+    right: 1.7%;
+    top: 25%;
     z-index: 30;
     background-image: url(../images/next_icon.png);
     background-size: 100%, 100%;
@@ -29,22 +28,23 @@
   }
   .content{
     width: 30%;
-    height: 36%;
+    height: 69%;
     margin-top: 23%;
     margin-left: 8%;
     .tittle{
       width: 88%;
       height: 40%;
       float: left;
-      margin-top: 3.4%;
-      margin-left: 9%;
+      margin-top: 2.6%;
+      margin-left: 9.4%;
       .text{
         color: white;
         font-family: 'Raleway', sans-serif;
         font-weight: 100;
         letter-spacing: 1.5px;
         text-decoration-style: solid;
-        font-size: 35px;
+        font-size: 2.7em;
+        line-height: 48px;
 
       }
 
@@ -59,9 +59,10 @@
         text-align: left;
         color: white;
         font-family: 'Raleway', sans-serif;
-        font-size: 13px;
+        font-size: 16px;
         letter-spacing: 0.7px;
         line-height: 22px;
+        padding-top: 2%;
         a{
           color: white;
           text-decoration-line: underline;
@@ -78,11 +79,11 @@
       margin-top: 1%;
       .ibar{
         background-color: #9a9ba0;
-        width: 18%;
+        width: 16%;
         height: 6%;
         float: left;
-        margin-top: 7.5%;
-        /* margin-left: 1%; */
+        margin-top: 8.1%;
+        margin-left: 1%;
         margin-right: 5%;
       }
     }

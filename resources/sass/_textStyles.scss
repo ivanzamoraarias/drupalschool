@@ -1,0 +1,28 @@
+@mixin image_box_title_style(){
+  font-size: 2.1875rem;
+  line-height: 2.5rem;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #3a4d69;
+}
+@mixin text_collection_il_style()
+{
+  margin-bottom: 0%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 114%;
+  /* font-weight: bold; */
+  color: red;
+  letter-spacing: -0.5px;
+  padding: 4%;
+}
+@mixin text_collection_p_style()
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80%;
+  padding-top: 3%;
+  padding-left: 7%;
+}

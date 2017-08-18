@@ -167,15 +167,16 @@ $isHover:false;
 }
 .title_box{
   position: relative;
-  width: 109%;
+  width: 123%;
+  height: 35%;
   margin-top: 1%;
   margin-left: 4%;
   .box{
     position: relative;
     display: inline-block;
-    margin-top: 6.5%;
-    padding-left: 2%;
-    padding-right: 25%;
+    margin-top: 6%;
+    padding-left: 1.5%;
+    padding-right: 29%;
     /* margin-left: 2%; */
     margin-right: 0%;
     .text{
@@ -195,19 +196,12 @@ $isHover:false;
 
 .first_a_text_collection_individual_container_div li {
   @include text_collection_il_style();
-  //font-family: 'Raleway', sans-serif;
-  //font-size: 90%;
-  //font-weight: bold;
-  //color: red;
-  //padding: 4%;
+
 }
 
 .first_a_text_collection_individual_container_text {
   @include text_collection_p_style();
-  //font-family: 'Open Sans', sans-serif;
-  //font-size: 80%;
-  //padding-top: 3%;
-  //padding-left: 7%;
+
 }
 
 
@@ -223,6 +217,64 @@ $isHover:false;
     width: 100%;
     height: 100%;
   }
+}
+
+.first_b_div{
+  position: relative;
+  margin-top: 6%;
+  width: 100%;
+  height: 412px;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+}
+.highlighNew{
+  float: left;
+  width: 50%;
+  height: 100%;
+  .imageContainer{
+    float: left;
+    width: 62%;
+    height: 116%;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .text{
+    color: white;
+    float: left;
+    h2{
+      line-height: 30px;
+      text-transform: uppercase;
+      font-family: 'Raleway',sans-serif;
+      font-weight: 400;
+    }
+    h1{
+      color: white;
+      font-family: 'Raleway',sans-serif;
+      font-weight: 100;
+      font-size: 2.1875rem;
+      line-height: 2.5rem;
+    }
+    p{
+      line-height: 2;
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      letter-spacing: 0.7px;
+    }
+  }
+
+
+}
+.imageNews{
+  float: left;
+  margin-top: 2.5%;
+  margin-left: 0.6%;
+  width: 22.7%;
+  height: 85%;
 }
 
 /*negra paseando*/

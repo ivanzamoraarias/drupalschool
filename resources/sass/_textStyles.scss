@@ -27,3 +27,12 @@
   padding-left: 11%;
   line-height: 1.56rem;
 }
+@mixin text_form_style($pt:3%,$pl:2%)
+{
+  font-family: 'Open Sans', sans-serif;
+  /* margin-top: 3%; */
+  padding-top: $pt;
+  padding-left: $pl;
+  font-weight: bold;
+  font-size: 80%;
+}

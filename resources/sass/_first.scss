@@ -12,6 +12,7 @@ $isHover:false;
   }
 }
 .first_div {
+  background-color: white;
   position: relative;
   width: inherit;
   height: 1563px;
@@ -236,21 +237,34 @@ $isHover:false;
   height: 100%;
   .imageContainer{
     float: left;
-    width: 62%;
-    height: 116%;
+    width: 46%;
+    height: 85%;
+    margin-top: 5%;
+    margin-left: 5%;
     img{
       width: 100%;
       height: 100%;
     }
   }
   .text{
+    position: relative;
     color: white;
-    float: left;
+    /* float: left; */
+    display: block;
+    margin-left: 51%;
+    margin-top: 4.9%;
+    background-color: #87888e;
+    width: 47.9%;
+    height: 85%;
     h2{
-      line-height: 30px;
+      line-height: 34px;
       text-transform: uppercase;
       font-family: 'Raleway',sans-serif;
-      font-weight: 400;
+      font-weight: 600;
+      font-size: 1.49rem;
+      padding-top: 5.2%;
+      padding-left: 7%;
+      letter-spacing: -0.3px;
     }
     h1{
       color: white;
@@ -258,12 +272,19 @@ $isHover:false;
       font-weight: 100;
       font-size: 2.1875rem;
       line-height: 2.5rem;
+      padding-top: 13.5%;
+      padding-left: 7%;
+      letter-spacing: 0.5px;
     }
     p{
-      line-height: 2;
+      width: 88%;
+      line-height: 26px;
       font-family: 'Open Sans',sans-serif;
       font-weight: 400;
-      letter-spacing: 0.7px;
+      /* letter-spacing: 0; */
+      margin-left: 8%;
+      margin-top: 4.5%;
+      /* font-size: 98.437%; */
     }
   }
 
@@ -273,8 +294,21 @@ $isHover:false;
   float: left;
   margin-top: 2.5%;
   margin-left: 0.6%;
+  margin-right: 0.7%;
   width: 22.7%;
   height: 85%;
+  h2{
+    color: white;
+    z-index: 1;
+    position: relative;
+    margin-top: -20%;
+    margin-left: 5.5%;
+    line-height: 1.6rem;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: -0.6px;
+  }
 }
 
 /*negra paseando*/
@@ -361,25 +395,24 @@ $isHover:false;
 .first_c_div {
   width: inherit;
   height: 177px;
-  /*background-color: aquamarine;*/
+  /* background-color: aquamarine; */
   float: left;
-  position: absolute;
-  top: 1810px;
-  left:1%;
+  position: relative;
+  top: 8%;
+  left: 1%;
 }
 
 .first_c_div_individual {
-  width: 29%;
+  width: 26%;
   height: 71%;
-  /*border: dotted;*/
-  /* padding-right: 3%; */
-  margin-right: 2.5%;
-  padding-left: 1%;
+  margin-left: 4.9%;
   float: left;
+  margin-top: 0.25%;
+  margin-right: 1%;
 }
 
 .first_c_div_individual_right {
-  width: 62%;
+  width: 72%;
   height: 81%;
   float: left;
   margin-left: 2%;
@@ -388,22 +421,26 @@ $isHover:false;
 
 .first_c_div_individual_right_text {
   font-family: 'Open Sans', sans-serif;
-  padding: 5%;
-  font-size: 121%;
+  /* padding: 5%; */
+  /* margin-top: 4%; */
+  padding-top: 4%;
+  padding-left: 4%;
+  font-size: 140%;
+  letter-spacing: 0.6px;
 }
 
 .first_c_div_individual_left {
-  width: 19%;
-  height: 100%;
+  width: 21.5%;
+  /* height: 100%; */
   float: left;
-  margin-left: 13%;
-  /*background-color: blue;*/
+  /* margin-left: 13%; */
+  /* background-color: blue; */
 
 }
 
 .first_c_div_individual_month {
   width: 100%;
-  height: 21%;
+  height: 35px;
   background-color: red;
 
 }
@@ -411,9 +448,12 @@ $isHover:false;
 .first_c_div_individual_month_text {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  font-size: 138%;
+  /* font-size: 1.625rem; */
+  font-size: 180%;
   font-weight: bold;
   color: white;
+  margin-top: -2%;
+  /* padding-top: 0; */
 }
 
 .first_c_div_individual_day {
@@ -425,6 +465,6 @@ $isHover:false;
 .first_c_div_individual_day_text {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  font-size: 237%;
-  font-weight: bold;
+  font-size: 2.8125rem;
+  font-weight: 700;
 }

@@ -2,18 +2,24 @@
   width: 100%;
   height: auto;
   float: left;
-  margin-top: 146%;
+  margin-top: 141.1%;
   background-color: pink;
+}
+#mobbot{
+  padding-top: 4%;
+}
+#monrow{
+  margin-top: -13%;
 }
 .mobile_2_div_op{
   width: 100%;
   height: auto;
   background-color: gray;
   .button_op{
-    height: 99px;
+    height: 84px;
     .mobile_2_div_op_text{
       font-family: 'Raleway', sans-serif;
-      font-size: 28px;
+      font-size: 148%;
       font-weight: 100;
       color: white;
       line-height: 30px;
@@ -25,9 +31,9 @@
     .mobile_2_div_op_arrow{
       color: white;
       float: right;
-      margin-right: 3%;
-      margin-top: -6%;
-      font-size: 257%;
+      margin-right: 5%;
+      margin-top: -9%;
+      font-size: 237%;
       font-weight: 900;
     }
   }

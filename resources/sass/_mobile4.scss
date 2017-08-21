@@ -3,7 +3,45 @@
   height: 360px;
 
   float: left;
-  margin-top: 17%;
+  margin-top: -20%;
+}
+.mobile_4_div_title{
+  width: 96%;
+  height: 4%;
+  float: left;
+  margin-left: 9%;
+  margin-top: 0%;
+  .left{
+    float: left;
+    display: inline-block;
+    width: 62%;
+    height: 59%;
+    margin-top: 3%;
+    .text{
+      font-family: 'Raleway', sans-serif;
+      font-size: 145%;
+      font-weight: normal;
+      line-height: 30px;
+      color: #444a5a;
+      padding-top: 1%;
+    }
+  }
+  .right{
+    width: 15%;
+    height: 34%;
+    float: left;
+    display: inline-block;
+    margin-left: 14.5%;
+    margin-top: 5%;
+    .text{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 20px;
+      text-decoration-color: #595959;
+      text-decoration-style: solid;
+    }
+  }
 }
 .mobile_4_div_collection{
 
@@ -20,10 +58,14 @@
 }
 .mobile_4_div_collection li{
 
-  width: 63%;
-  height: 73%;
-  padding: 10%;
-  margin-bottom: 3%;
+  width: 59.5%;
+  /* height: 84%; */
+  padding: 9%;
+  padding-left: 9.5%;
+  position: relative;
+  /* margin-top: 8.7%; */
+  /* margin-left: 9%; */
+  margin-bottom: 4%;
 }
 .mobile_4_div_collection_date{
   display: inline-block;
@@ -36,9 +78,11 @@
 }
 .mobile_4_div_collection_date_month_text{
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
   color: white;
+  font-weight: bold;
+  margin-top: -3%;
 }
 .mobile_4_div_collection_date_day{
 

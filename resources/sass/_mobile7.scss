@@ -5,6 +5,10 @@
   //border: dotted;
   margin-top: $t;
   margin-left: $l;
+  //width: 22%;
+  //height: 21%;
+  //margin-top: 14%;
+  //margin-left: 39%;
 }
 
 .mobile_7_div{
@@ -15,7 +19,7 @@
   width: 100%;
   height: 18%;
   float: left;
-  margin-top: 20%;
+  margin-top: 12%;
 }
 .mobile_7_div_white_tittle{
   width: 86%;
@@ -26,40 +30,42 @@
 .mobile_7_div_white_tittle_text{
   font-family: 'Raleway', sans-serif;
   color: black;
-  font-size: 29px;
+  font-size: 24px;
   font-weight: 100;
+  padding-top: 1%;
+  letter-spacing: -0.4px;
 }
 .mobile_7_div_white_content{
   height: 69%;
   width: 88%;
-  margin-left: 8%;
-  margin-top: 2%;
+  margin-left: 7.6%;
+  margin-top: -1%;
 }
 .mobile_7_div_white_content_text{
   color: black;
-  line-height: 25px;
-  font-size: 19px;
+  line-height: 171.7%;
+  font-size: 14px;
   font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.18px;
 
 }
 .mobile_7_div_red{
   background-color: #ff3333;
   width: 100%;
-  height: 17%;
+  height: 14.3%;
   float: left;
-  margin-top: 23px;
-
+  margin-top: -10%;
 }
 .mobile_7_div_red_tittle{
   width: 86%;
   height: 13%;
-  margin-top: 6%;
-  margin-left: 7%;
+  margin-top: 5%;
+  margin-left: 6%;
   //background-color: black;
 }
 .mobile_7_div_red_tittle_text{
   font-family: 'Raleway',sans-serif;
-  font-size: 27px;
+  font-size: 24px;
   font-weight: 100;
   line-height: 30px;
   color: white;
@@ -67,32 +73,44 @@
   padding-left: 1%;
 }
 .mobile_7_div_red_content{
-  width: 86%;
+  width: 91%;
   height: 19%;
- // background-color: black;
 }
 .mobile_7_div_red_content_text{
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 84%;
   letter-spacing: 0.7px;
-  line-height: 24px;
+  line-height: 19px;
   color: white;
-  padding-top: 3%;
+  padding-top: 4%;
   padding-left: 8%;
 }
 .mobile_7_div_gray{
   width: 100%;
-  height: 30%;
+  height: 28.3%;
   float: left;
   background-color: #bfbfbf;
   #m71{
-    @include logo-container();
+    //@include logo-container();
+    width: 22%;
+    height: 21%;
+    margin-top: 15%;
+    margin-left: 39%;
   }
   #m72{
-    @include logo-container(57%,16%,23%);
+    //@include logo-container(57%,16%,23%);
+    width: 54%;
+    height: 22%;
+    margin-top: 15%;
+    margin-left: 23%;
   }
   #m73{
-    @include logo-container(38%,15%,32%);
+    //@include logo-container(38%,15%,32%);
+    width: 38%;
+    height: 22%;
+    margin-top: 15%;
+    margin-left: 31%;
+
   }
   .mobile_7_div_gray_item{
     //width: 31%;
@@ -120,12 +138,14 @@
     //background-color: rebeccapurple;
     width: 100%;
     height: 23%;
+    margin-top: -16%;
+    margin-left: -1%;
     ul{
       list-style-type: none;
       padding-left: 24%;
       padding-top: 10%;
       li{
-        width: 32.3%;
+        width: 30%;
         height: 50%;
         /* background-color: yellow; */
         float: left;
@@ -146,25 +166,26 @@
     height: 41%;
     //background-color: yellowgreen;
     position: relative;
+    margin-top: -10%;
     .mobile_7_div_black_info_content{
-      margin-top: 8%;
-      margin-left: 4%;
+      margin-top: 7%;
+      margin-left: 2%;
       p{
-        color:white;
+        color: white;
         font-family: 'Raleway', sans-serif;
-        font-size: 1.2em;
+        font-size: 104%;
         font-weight: 600;
         letter-spacing: 1px;
-        line-height: 25px;
+        line-height: 23px;
+        /* padding-left: 27%; */
         text-align: center;
-        margin-bottom: 1%;
 
       }
     }
     .mobile_7_div_black_info_img{
-      width: 44%;
-      height: 24%;
-      margin-left: 30%;
+      width: 41.5%;
+      height: 21%;
+      margin-left: 29.5%;
       margin-top: 1%;
       img{
         width: 100%;
@@ -179,7 +200,7 @@
     }
   }
   .mobile_7_div_black_menu{
-    width: 88%;
+    width: 84.5%;
     height: 27%;
     margin-top: 17%;
     margin-left: 8%;
@@ -188,12 +209,12 @@
         list-style-type: none;
         li{
           width: 100%;
-          height: 54px;
+          height: 45px;
           margin-bottom: 5%;
           background-color: #231f20;
           .mobile_7_div_black_menu_text{
             font-family: 'Raleway', sans-serif;
-            font-size: 25px;
+            font-size: 22px;
             font-weight: 100;
             color: white;
             text-align: center;

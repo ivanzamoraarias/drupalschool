@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9415afbe-e406-4931-affb-79276cc46346" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mainpage.scssc" afterPath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mainpage.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobile2.scssc" afterPath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobile2.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobile3.scssc" afterPath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobile3.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobile4.scssc" afterPath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobile4.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobile5.scssc" afterPath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobile5.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobile6.scssc" afterPath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobile6.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobile7.scssc" afterPath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobile7.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobileFirst.scssc" afterPath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobileFirst.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobileHeader.scssc" afterPath="$PROJECT_DIR$/resources/.sass-cache/34f84600c6a450959934a2422c2eda3709483596/_mobileHeader.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_mainpage.scss" afterPath="$PROJECT_DIR$/resources/sass/_mainpage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_mobile2.scss" afterPath="$PROJECT_DIR$/resources/sass/_mobile2.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_mobile3.scss" afterPath="$PROJECT_DIR$/resources/sass/_mobile3.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_mobile4.scss" afterPath="$PROJECT_DIR$/resources/sass/_mobile4.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_mobile5.scss" afterPath="$PROJECT_DIR$/resources/sass/_mobile5.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_mobile6.scss" afterPath="$PROJECT_DIR$/resources/sass/_mobile6.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_mobile7.scss" afterPath="$PROJECT_DIR$/resources/sass/_mobile7.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_mobileFirst.scss" afterPath="$PROJECT_DIR$/resources/sass/_mobileFirst.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_mobileHeader.scss" afterPath="$PROJECT_DIR$/resources/sass/_mobileHeader.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_mobilemain.scss" afterPath="$PROJECT_DIR$/resources/sass/_mobilemain.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/styles/input.css" afterPath="$PROJECT_DIR$/resources/styles/input.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/styles/input.css.map" afterPath="$PROJECT_DIR$/resources/styles/input.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mobileTest.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mobileTest.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mobileTest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="623" column="0" lean-forward="false" selection-start-line="623" selection-start-column="0" selection-end-line="623" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="443" column="24" lean-forward="false" selection-start-line="443" selection-start-column="16" selection-end-line="443" selection-end-column="24" />
               <folding>
                 <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -89,6 +67,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="451" column="28" lean-forward="false" selection-start-line="451" selection-start-column="28" selection-end-line="451" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_mobile5.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/_mobile5.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_mobile7.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_mobile7.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/_mobile7.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="295">
-              <caret line="147" column="17" lean-forward="false" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+              <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,16 +157,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_mobilemain.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/_mobilemain.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -192,9 +170,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>g</find>
-      <find>images</find>
-      <find>grad</find>
       <find>middle</find>
       <find>gale</find>
       <find>middle_div</find>
@@ -222,6 +197,9 @@
       <find>button</find>
       <find>tra</find>
       <find>image</find>
+      <find>black_icon</find>
+      <find>text</find>
+      <find>mobile_4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -247,7 +225,6 @@
         <option value="$PROJECT_DIR$/resources/sass/_third.scss" />
         <option value="$PROJECT_DIR$/resources/sass/_bottom.scss" />
         <option value="$PROJECT_DIR$/resources/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/sass/_mainpage.scss" />
         <option value="$PROJECT_DIR$/resources/sass/_mobilemain.scss" />
         <option value="$PROJECT_DIR$/resources/sass/_mobileHeader.scss" />
@@ -259,6 +236,7 @@
         <option value="$PROJECT_DIR$/resources/sass/_mobile6.scss" />
         <option value="$PROJECT_DIR$/mobileTest.html" />
         <option value="$PROJECT_DIR$/resources/sass/_mobile7.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -496,12 +474,12 @@
       <workItem from="1503161814732" duration="16092000" />
       <workItem from="1503250748901" duration="16118000" />
       <workItem from="1503275159995" duration="10428000" />
-      <workItem from="1503326138766" duration="10029000" />
+      <workItem from="1503326138766" duration="10868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="423867000" />
+    <option name="totallyTimeSpent" value="424706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -1030,13 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-265">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/_mobileFirst.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -1077,10 +1048,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_mobile5.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_mobile7.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="451" column="28" lean-forward="false" selection-start-line="451" selection-start-column="28" selection-end-line="451" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mobileTest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="623" column="0" lean-forward="false" selection-start-line="623" selection-start-column="0" selection-end-line="623" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="443" column="24" lean-forward="false" selection-start-line="443" selection-start-column="16" selection-end-line="443" selection-end-column="24" />
           <folding>
             <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1113,22 +1108,6 @@
             <element signature="n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_mobile5.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_mobile7.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="147" column="17" lean-forward="false" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
